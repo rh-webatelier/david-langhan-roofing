@@ -57,8 +57,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 .btn--primary:hover { background: var(--brick-600); transform: translateY(-2px); box-shadow: 0 18px 34px -12px rgba(224,90,52,.7); }
 .btn--glass { background: rgba(255,255,255,.10); color: #fff; border-color: rgba(255,255,255,.35); backdrop-filter: blur(6px); }
 .btn--glass:hover { background: rgba(255,255,255,.18); transform: translateY(-2px); }
-.btn--ghost { background: transparent; color: var(--ink); border-color: var(--line); }
-.btn--ghost:hover { border-color: var(--ink); }
+.btn--ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.4); }
+.btn--ghost:hover { border-color: #fff; }
 .btn--outline { background: transparent; color: var(--brick); border-color: var(--brick); }
 .btn--outline:hover { background: var(--brick); color: #fff; transform: translateY(-2px); }
 .btn--outline-dark { background: transparent; color: #fff; border-color: rgba(255,255,255,.4); }

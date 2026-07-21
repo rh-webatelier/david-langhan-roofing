@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rh-webatelier.github.io/david-langhan-roofing/sitemap.xml

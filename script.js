@@ -160,3 +160,12 @@
     });
   }
 })();
+
+// before/after comparison slider
+(function(){
+  document.querySelectorAll('[data-ba]').forEach(function(ba){
+    var range=ba.querySelector('.ba__range'); if(!range) return;
+    function upd(){ ba.style.setProperty('--pos', range.value+'%'); }
+    range.addEventListener('input', upd); range.addEventListener('change', upd); upd();
+  });
+})();
